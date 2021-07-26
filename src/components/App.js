@@ -1,12 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import SearchPage from './SearchPage/SearchPage';
 
-function App() {
-  return (
-    <div>
-      Hello World 
-    </div>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        <SearchPage /> 
+      </div>
+    )
+  }
 }
-
-export default App;
